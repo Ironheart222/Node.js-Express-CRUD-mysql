@@ -9,7 +9,7 @@ app.use(bodyparser.json());
 var mysqlConnection = mysql.createConnection({
     host: 'localhost',
     user: 'localhost',
-    password: 'localhost',
+    password: '**********************************************',
     database: 'emp',
     multipleStatements: true
 });
